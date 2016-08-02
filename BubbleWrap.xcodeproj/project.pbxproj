@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27655EFB1CEB6F1A00363B22 /* BubbleWrapPreviewViewController+Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27655EFA1CEB6F1A00363B22 /* BubbleWrapPreviewViewController+Main.swift */; };
+		27655EFD1CEB83CC00363B22 /* AVAsset+Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27655EFC1CEB83CC00363B22 /* AVAsset+Thumbnail.swift */; };
+		27655EFE1CEB849300363B22 /* AVAsset+Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27655EFC1CEB83CC00363B22 /* AVAsset+Thumbnail.swift */; };
+		27655EFF1CEB849400363B22 /* AVAsset+Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27655EFC1CEB83CC00363B22 /* AVAsset+Thumbnail.swift */; };
+		27655F011CEB92A100363B22 /* PHImageManager+VideoThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27655F001CEB92A100363B22 /* PHImageManager+VideoThumb.swift */; };
+		27655F021CEB92B700363B22 /* PHImageManager+VideoThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27655F001CEB92A100363B22 /* PHImageManager+VideoThumb.swift */; };
+		27655F031CEB92B800363B22 /* PHImageManager+VideoThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27655F001CEB92A100363B22 /* PHImageManager+VideoThumb.swift */; };
+		27655F051CEC5C8D00363B22 /* PhotoLibraryPanoramaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27655F041CEC5C8D00363B22 /* PhotoLibraryPanoramaCell.swift */; };
+		27655F071CEC5E6F00363B22 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27655F061CEC5E6F00363B22 /* Shared.swift */; };
+		27655F081CEC5E8100363B22 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27655F061CEC5E6F00363B22 /* Shared.swift */; };
+		27655F091CEC5E8100363B22 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27655F061CEC5E6F00363B22 /* Shared.swift */; };
+		277950A41CEA062500B7B477 /* BubbleWrapAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277950A31CEA062500B7B477 /* BubbleWrapAppDelegate.swift */; };
+		277950A61CEA062500B7B477 /* UserPanoramasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277950A51CEA062500B7B477 /* UserPanoramasViewController.swift */; };
+		277950AB1CEA062500B7B477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277950A91CEA062500B7B477 /* Main.storyboard */; };
+		277950AD1CEA062500B7B477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277950AC1CEA062500B7B477 /* Assets.xcassets */; };
+		277950B01CEA062500B7B477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277950AE1CEA062500B7B477 /* LaunchScreen.storyboard */; };
+		277950BE1CEA06AA00B7B477 /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277950BD1CEA06AA00B7B477 /* PhotosUI.framework */; };
+		277950C01CEA06AA00B7B477 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277950BF1CEA06AA00B7B477 /* Photos.framework */; };
+		277950C31CEA06AA00B7B477 /* BubbleWrapPreviewViewController+PHContentEditingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277950C21CEA06AA00B7B477 /* BubbleWrapPreviewViewController+PHContentEditingController.swift */; };
+		277950CA1CEA06AA00B7B477 /* BubbleWrap Photo Editing Extenstion.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 277950BB1CEA06AA00B7B477 /* BubbleWrap Photo Editing Extenstion.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		277950E51CEA06E900B7B477 /* BubblePixKernels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277950E21CEA06E900B7B477 /* BubblePixKernels.swift */; };
+		277950E61CEA06E900B7B477 /* BubblePixKernels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277950E21CEA06E900B7B477 /* BubblePixKernels.swift */; };
+		277950E81CEA06E900B7B477 /* BubblePixKernels.kernel in Resources */ = {isa = PBXBuildFile; fileRef = 277950E31CEA06E900B7B477 /* BubblePixKernels.kernel */; };
+		277950E91CEA06E900B7B477 /* BubblePixKernels.kernel in Resources */ = {isa = PBXBuildFile; fileRef = 277950E31CEA06E900B7B477 /* BubblePixKernels.kernel */; };
+		277950EB1CEA06E900B7B477 /* BPPlanetFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277950E41CEA06E900B7B477 /* BPPlanetFilter.swift */; };
+		277950EC1CEA06E900B7B477 /* BPPlanetFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277950E41CEA06E900B7B477 /* BPPlanetFilter.swift */; };
+		277950F01CEA07A500B7B477 /* BubbleWrapPreviewViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277950EF1CEA07A500B7B477 /* BubbleWrapPreviewViewController.storyboard */; };
+		277950F11CEA07A500B7B477 /* BubbleWrapPreviewViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277950EF1CEA07A500B7B477 /* BubbleWrapPreviewViewController.storyboard */; };
+		277950F41CEA07B900B7B477 /* BubbleWrapPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277950F31CEA07B900B7B477 /* BubbleWrapPreviewViewController.swift */; };
+		277950F51CEA07B900B7B477 /* BubbleWrapPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277950F31CEA07B900B7B477 /* BubbleWrapPreviewViewController.swift */; };
+		277950F81CEA215A00B7B477 /* UIImage+ImportScaling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277950F71CEA215A00B7B477 /* UIImage+ImportScaling.swift */; };
+		277950F91CEA215A00B7B477 /* UIImage+ImportScaling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277950F71CEA215A00B7B477 /* UIImage+ImportScaling.swift */; };
+		277950FC1CEA21F200B7B477 /* NSNumber+CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277950FB1CEA21F200B7B477 /* NSNumber+CGFloat.swift */; };
+		277950FD1CEA21F200B7B477 /* NSNumber+CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277950FB1CEA21F200B7B477 /* NSNumber+CGFloat.swift */; };
+		2779512D1CEA2B5500B7B477 /* BubbleWrapPreviewViewController+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2779512C1CEA2B5500B7B477 /* BubbleWrapPreviewViewController+Action.swift */; };
+		277951341CEA2B5500B7B477 /* BubbleWrap Action Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2779512A1CEA2B5500B7B477 /* BubbleWrap Action Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		277951381CEA2C7100B7B477 /* BubbleWrapPreviewViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277950EF1CEA07A500B7B477 /* BubbleWrapPreviewViewController.storyboard */; };
+		277951391CEA2C7100B7B477 /* BubbleWrapPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277950F31CEA07B900B7B477 /* BubbleWrapPreviewViewController.swift */; };
+		2779513A1CEA2C7100B7B477 /* UIImage+ImportScaling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277950F71CEA215A00B7B477 /* UIImage+ImportScaling.swift */; };
+		2779513B1CEA2C7100B7B477 /* NSNumber+CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277950FB1CEA21F200B7B477 /* NSNumber+CGFloat.swift */; };
+		2779513C1CEA2C7500B7B477 /* BubblePixKernels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277950E21CEA06E900B7B477 /* BubblePixKernels.swift */; };
+		2779513D1CEA2C7500B7B477 /* BubblePixKernels.kernel in Resources */ = {isa = PBXBuildFile; fileRef = 277950E31CEA06E900B7B477 /* BubblePixKernels.kernel */; };
+		2779513E1CEA2C7500B7B477 /* BPPlanetFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277950E41CEA06E900B7B477 /* BPPlanetFilter.swift */; };
+		27B276331D50CB3F003F1E42 /* CIImage+AverageColour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B276321D50CB3F003F1E42 /* CIImage+AverageColour.swift */; };
+		27B276341D50CB3F003F1E42 /* CIImage+AverageColour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B276321D50CB3F003F1E42 /* CIImage+AverageColour.swift */; };
+		27B276351D50CB3F003F1E42 /* CIImage+AverageColour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B276321D50CB3F003F1E42 /* CIImage+AverageColour.swift */; };
+		27B276371D50CB4B003F1E42 /* CIImage+imageClampYTileX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B276361D50CB4B003F1E42 /* CIImage+imageClampYTileX.swift */; };
+		27B276381D50CB4B003F1E42 /* CIImage+imageClampYTileX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B276361D50CB4B003F1E42 /* CIImage+imageClampYTileX.swift */; };
+		27B276391D50CB4B003F1E42 /* CIImage+imageClampYTileX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B276361D50CB4B003F1E42 /* CIImage+imageClampYTileX.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		277950C81CEA06AA00B7B477 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 277950981CEA062500B7B477 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 277950BA1CEA06AA00B7B477;
+			remoteInfo = "BubbleWrap Photo Editing Extenstion";
+		};
+		277951321CEA2B5500B7B477 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 277950981CEA062500B7B477 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 277951291CEA2B5500B7B477;
+			remoteInfo = "BubbleWrap Action Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		277950CE1CEA06AA00B7B477 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				277951341CEA2B5500B7B477 /* BubbleWrap Action Extension.appex in Embed App Extensions */,
+				277950CA1CEA06AA00B7B477 /* BubbleWrap Photo Editing Extenstion.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		27655EFA1CEB6F1A00363B22 /* BubbleWrapPreviewViewController+Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BubbleWrapPreviewViewController+Main.swift"; sourceTree = "<group>"; };
+		27655EFC1CEB83CC00363B22 /* AVAsset+Thumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVAsset+Thumbnail.swift"; sourceTree = "<group>"; };
+		27655F001CEB92A100363B22 /* PHImageManager+VideoThumb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PHImageManager+VideoThumb.swift"; sourceTree = "<group>"; };
+		27655F041CEC5C8D00363B22 /* PhotoLibraryPanoramaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoLibraryPanoramaCell.swift; sourceTree = "<group>"; };
+		27655F061CEC5E6F00363B22 /* Shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
+		277950A01CEA062500B7B477 /* BubbleWrap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleWrap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		277950A31CEA062500B7B477 /* BubbleWrapAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleWrapAppDelegate.swift; sourceTree = "<group>"; };
+		277950A51CEA062500B7B477 /* UserPanoramasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPanoramasViewController.swift; sourceTree = "<group>"; };
+		277950AA1CEA062500B7B477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		277950AC1CEA062500B7B477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		277950AF1CEA062500B7B477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		277950B11CEA062500B7B477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		277950BB1CEA06AA00B7B477 /* BubbleWrap Photo Editing Extenstion.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BubbleWrap Photo Editing Extenstion.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		277950BD1CEA06AA00B7B477 /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		277950BF1CEA06AA00B7B477 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		277950C21CEA06AA00B7B477 /* BubbleWrapPreviewViewController+PHContentEditingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BubbleWrapPreviewViewController+PHContentEditingController.swift"; sourceTree = "<group>"; };
+		277950C71CEA06AA00B7B477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		277950E21CEA06E900B7B477 /* BubblePixKernels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubblePixKernels.swift; sourceTree = "<group>"; };
+		277950E31CEA06E900B7B477 /* BubblePixKernels.kernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BubblePixKernels.kernel; sourceTree = "<group>"; };
+		277950E41CEA06E900B7B477 /* BPPlanetFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BPPlanetFilter.swift; sourceTree = "<group>"; };
+		277950EF1CEA07A500B7B477 /* BubbleWrapPreviewViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BubbleWrapPreviewViewController.storyboard; sourceTree = "<group>"; };
+		277950F31CEA07B900B7B477 /* BubbleWrapPreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleWrapPreviewViewController.swift; sourceTree = "<group>"; };
+		277950F71CEA215A00B7B477 /* UIImage+ImportScaling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+ImportScaling.swift"; sourceTree = "<group>"; };
+		277950FB1CEA21F200B7B477 /* NSNumber+CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSNumber+CGFloat.swift"; sourceTree = "<group>"; };
+		2779512A1CEA2B5500B7B477 /* BubbleWrap Action Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BubbleWrap Action Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2779512C1CEA2B5500B7B477 /* BubbleWrapPreviewViewController+Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BubbleWrapPreviewViewController+Action.swift"; sourceTree = "<group>"; };
+		277951311CEA2B5500B7B477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27B276321D50CB3F003F1E42 /* CIImage+AverageColour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CIImage+AverageColour.swift"; sourceTree = "<group>"; };
+		27B276361D50CB4B003F1E42 /* CIImage+imageClampYTileX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CIImage+imageClampYTileX.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2779509D1CEA062500B7B477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277950B81CEA06AA00B7B477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277950BE1CEA06AA00B7B477 /* PhotosUI.framework in Frameworks */,
+				277950C01CEA06AA00B7B477 /* Photos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277951271CEA2B5500B7B477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		277950971CEA062500B7B477 = {
+			isa = PBXGroup;
+			children = (
+				277950E11CEA06CC00B7B477 /* CoreImage */,
+				27B276311D50C82F003F1E42 /* Extensions */,
+				277950EE1CEA077900B7B477 /* Shared */,
+				277950A21CEA062500B7B477 /* BubbleWrap */,
+				277950C11CEA06AA00B7B477 /* BubbleWrap Photo Editing Extenstion */,
+				2779512B1CEA2B5500B7B477 /* BubbleWrap Action Extension */,
+				277950BC1CEA06AA00B7B477 /* Frameworks */,
+				277950A11CEA062500B7B477 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		277950A11CEA062500B7B477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				277950A01CEA062500B7B477 /* BubbleWrap.app */,
+				277950BB1CEA06AA00B7B477 /* BubbleWrap Photo Editing Extenstion.appex */,
+				2779512A1CEA2B5500B7B477 /* BubbleWrap Action Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		277950A21CEA062500B7B477 /* BubbleWrap */ = {
+			isa = PBXGroup;
+			children = (
+				277950A31CEA062500B7B477 /* BubbleWrapAppDelegate.swift */,
+				27655EFA1CEB6F1A00363B22 /* BubbleWrapPreviewViewController+Main.swift */,
+				27655F041CEC5C8D00363B22 /* PhotoLibraryPanoramaCell.swift */,
+				277950A51CEA062500B7B477 /* UserPanoramasViewController.swift */,
+				277950A91CEA062500B7B477 /* Main.storyboard */,
+				277950AC1CEA062500B7B477 /* Assets.xcassets */,
+				277950AE1CEA062500B7B477 /* LaunchScreen.storyboard */,
+				277950B11CEA062500B7B477 /* Info.plist */,
+			);
+			path = BubbleWrap;
+			sourceTree = "<group>";
+		};
+		277950BC1CEA06AA00B7B477 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				277950BD1CEA06AA00B7B477 /* PhotosUI.framework */,
+				277950BF1CEA06AA00B7B477 /* Photos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		277950C11CEA06AA00B7B477 /* BubbleWrap Photo Editing Extenstion */ = {
+			isa = PBXGroup;
+			children = (
+				277950C21CEA06AA00B7B477 /* BubbleWrapPreviewViewController+PHContentEditingController.swift */,
+				277950C71CEA06AA00B7B477 /* Info.plist */,
+			);
+			path = "BubbleWrap Photo Editing Extenstion";
+			sourceTree = "<group>";
+		};
+		277950E11CEA06CC00B7B477 /* CoreImage */ = {
+			isa = PBXGroup;
+			children = (
+				277950E21CEA06E900B7B477 /* BubblePixKernels.swift */,
+				277950E31CEA06E900B7B477 /* BubblePixKernels.kernel */,
+				277950E41CEA06E900B7B477 /* BPPlanetFilter.swift */,
+			);
+			name = CoreImage;
+			sourceTree = "<group>";
+		};
+		277950EE1CEA077900B7B477 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				277950EF1CEA07A500B7B477 /* BubbleWrapPreviewViewController.storyboard */,
+				277950F31CEA07B900B7B477 /* BubbleWrapPreviewViewController.swift */,
+				27655F061CEC5E6F00363B22 /* Shared.swift */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		2779512B1CEA2B5500B7B477 /* BubbleWrap Action Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2779512C1CEA2B5500B7B477 /* BubbleWrapPreviewViewController+Action.swift */,
+				277951311CEA2B5500B7B477 /* Info.plist */,
+			);
+			path = "BubbleWrap Action Extension";
+			sourceTree = "<group>";
+		};
+		27B276311D50C82F003F1E42 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				277950F71CEA215A00B7B477 /* UIImage+ImportScaling.swift */,
+				277950FB1CEA21F200B7B477 /* NSNumber+CGFloat.swift */,
+				27655EFC1CEB83CC00363B22 /* AVAsset+Thumbnail.swift */,
+				27655F001CEB92A100363B22 /* PHImageManager+VideoThumb.swift */,
+				27B276321D50CB3F003F1E42 /* CIImage+AverageColour.swift */,
+				27B276361D50CB4B003F1E42 /* CIImage+imageClampYTileX.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2779509F1CEA062500B7B477 /* BubbleWrap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 277950B41CEA062500B7B477 /* Build configuration list for PBXNativeTarget "BubbleWrap" */;
+			buildPhases = (
+				2779509C1CEA062500B7B477 /* Sources */,
+				2779509D1CEA062500B7B477 /* Frameworks */,
+				2779509E1CEA062500B7B477 /* Resources */,
+				277950CE1CEA06AA00B7B477 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				277950C91CEA06AA00B7B477 /* PBXTargetDependency */,
+				277951331CEA2B5500B7B477 /* PBXTargetDependency */,
+			);
+			name = BubbleWrap;
+			productName = BubbleWrap;
+			productReference = 277950A01CEA062500B7B477 /* BubbleWrap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		277950BA1CEA06AA00B7B477 /* BubbleWrap Photo Editing Extenstion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 277950CB1CEA06AA00B7B477 /* Build configuration list for PBXNativeTarget "BubbleWrap Photo Editing Extenstion" */;
+			buildPhases = (
+				277950B71CEA06AA00B7B477 /* Sources */,
+				277950B81CEA06AA00B7B477 /* Frameworks */,
+				277950B91CEA06AA00B7B477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BubbleWrap Photo Editing Extenstion";
+			productName = "BubbleWrap Photo Editing Extenstion";
+			productReference = 277950BB1CEA06AA00B7B477 /* BubbleWrap Photo Editing Extenstion.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		277951291CEA2B5500B7B477 /* BubbleWrap Action Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 277951351CEA2B5500B7B477 /* Build configuration list for PBXNativeTarget "BubbleWrap Action Extension" */;
+			buildPhases = (
+				277951261CEA2B5500B7B477 /* Sources */,
+				277951271CEA2B5500B7B477 /* Frameworks */,
+				277951281CEA2B5500B7B477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BubbleWrap Action Extension";
+			productName = "BubbleWrap Action Extension";
+			productReference = 2779512A1CEA2B5500B7B477 /* BubbleWrap Action Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		277950981CEA062500B7B477 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Fluid Pixel Limited";
+				TargetAttributes = {
+					2779509F1CEA062500B7B477 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					277950BA1CEA06AA00B7B477 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					277951291CEA2B5500B7B477 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 2779509B1CEA062500B7B477 /* Build configuration list for PBXProject "BubbleWrap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 277950971CEA062500B7B477;
+			productRefGroup = 277950A11CEA062500B7B477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2779509F1CEA062500B7B477 /* BubbleWrap */,
+				277950BA1CEA06AA00B7B477 /* BubbleWrap Photo Editing Extenstion */,
+				277951291CEA2B5500B7B477 /* BubbleWrap Action Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2779509E1CEA062500B7B477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277950B01CEA062500B7B477 /* LaunchScreen.storyboard in Resources */,
+				277950AD1CEA062500B7B477 /* Assets.xcassets in Resources */,
+				277950AB1CEA062500B7B477 /* Main.storyboard in Resources */,
+				277950F01CEA07A500B7B477 /* BubbleWrapPreviewViewController.storyboard in Resources */,
+				277950E81CEA06E900B7B477 /* BubblePixKernels.kernel in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277950B91CEA06AA00B7B477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277950F11CEA07A500B7B477 /* BubbleWrapPreviewViewController.storyboard in Resources */,
+				277950E91CEA06E900B7B477 /* BubblePixKernels.kernel in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277951281CEA2B5500B7B477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277951381CEA2C7100B7B477 /* BubbleWrapPreviewViewController.storyboard in Resources */,
+				2779513D1CEA2C7500B7B477 /* BubblePixKernels.kernel in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2779509C1CEA062500B7B477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B276331D50CB3F003F1E42 /* CIImage+AverageColour.swift in Sources */,
+				277950EB1CEA06E900B7B477 /* BPPlanetFilter.swift in Sources */,
+				277950A61CEA062500B7B477 /* UserPanoramasViewController.swift in Sources */,
+				277950F41CEA07B900B7B477 /* BubbleWrapPreviewViewController.swift in Sources */,
+				27655F011CEB92A100363B22 /* PHImageManager+VideoThumb.swift in Sources */,
+				277950E51CEA06E900B7B477 /* BubblePixKernels.swift in Sources */,
+				277950A41CEA062500B7B477 /* BubbleWrapAppDelegate.swift in Sources */,
+				27655F071CEC5E6F00363B22 /* Shared.swift in Sources */,
+				277950FC1CEA21F200B7B477 /* NSNumber+CGFloat.swift in Sources */,
+				27655EFB1CEB6F1A00363B22 /* BubbleWrapPreviewViewController+Main.swift in Sources */,
+				277950F81CEA215A00B7B477 /* UIImage+ImportScaling.swift in Sources */,
+				27655EFD1CEB83CC00363B22 /* AVAsset+Thumbnail.swift in Sources */,
+				27B276371D50CB4B003F1E42 /* CIImage+imageClampYTileX.swift in Sources */,
+				27655F051CEC5C8D00363B22 /* PhotoLibraryPanoramaCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277950B71CEA06AA00B7B477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27655EFF1CEB849400363B22 /* AVAsset+Thumbnail.swift in Sources */,
+				277950FD1CEA21F200B7B477 /* NSNumber+CGFloat.swift in Sources */,
+				277950E61CEA06E900B7B477 /* BubblePixKernels.swift in Sources */,
+				27655F021CEB92B700363B22 /* PHImageManager+VideoThumb.swift in Sources */,
+				277950F51CEA07B900B7B477 /* BubbleWrapPreviewViewController.swift in Sources */,
+				27B276341D50CB3F003F1E42 /* CIImage+AverageColour.swift in Sources */,
+				27B276381D50CB4B003F1E42 /* CIImage+imageClampYTileX.swift in Sources */,
+				277950C31CEA06AA00B7B477 /* BubbleWrapPreviewViewController+PHContentEditingController.swift in Sources */,
+				27655F081CEC5E8100363B22 /* Shared.swift in Sources */,
+				277950EC1CEA06E900B7B477 /* BPPlanetFilter.swift in Sources */,
+				277950F91CEA215A00B7B477 /* UIImage+ImportScaling.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277951261CEA2B5500B7B477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27655EFE1CEB849300363B22 /* AVAsset+Thumbnail.swift in Sources */,
+				2779513A1CEA2C7100B7B477 /* UIImage+ImportScaling.swift in Sources */,
+				2779513C1CEA2C7500B7B477 /* BubblePixKernels.swift in Sources */,
+				27655F031CEB92B800363B22 /* PHImageManager+VideoThumb.swift in Sources */,
+				2779512D1CEA2B5500B7B477 /* BubbleWrapPreviewViewController+Action.swift in Sources */,
+				27B276351D50CB3F003F1E42 /* CIImage+AverageColour.swift in Sources */,
+				27B276391D50CB4B003F1E42 /* CIImage+imageClampYTileX.swift in Sources */,
+				2779513B1CEA2C7100B7B477 /* NSNumber+CGFloat.swift in Sources */,
+				27655F091CEC5E8100363B22 /* Shared.swift in Sources */,
+				277951391CEA2C7100B7B477 /* BubbleWrapPreviewViewController.swift in Sources */,
+				2779513E1CEA2C7500B7B477 /* BPPlanetFilter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		277950C91CEA06AA00B7B477 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 277950BA1CEA06AA00B7B477 /* BubbleWrap Photo Editing Extenstion */;
+			targetProxy = 277950C81CEA06AA00B7B477 /* PBXContainerItemProxy */;
+		};
+		277951331CEA2B5500B7B477 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 277951291CEA2B5500B7B477 /* BubbleWrap Action Extension */;
+			targetProxy = 277951321CEA2B5500B7B477 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		277950A91CEA062500B7B477 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				277950AA1CEA062500B7B477 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		277950AE1CEA062500B7B477 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				277950AF1CEA062500B7B477 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		277950B21CEA062500B7B477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		277950B31CEA062500B7B477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		277950B51CEA062500B7B477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = BubbleWrap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fpstudios.BubbleWrap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		277950B61CEA062500B7B477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = BubbleWrap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fpstudios.BubbleWrap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		277950CC1CEA06AA00B7B477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BubbleWrap Photo Editing Extenstion/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fpstudios.BubbleWrap.BubbleWrap-Photo-Editing-Extenstion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		277950CD1CEA06AA00B7B477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BubbleWrap Photo Editing Extenstion/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fpstudios.BubbleWrap.BubbleWrap-Photo-Editing-Extenstion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		277951361CEA2B5500B7B477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BubbleWrap Action Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fpstudios.BubbleWrap.BubbleWrap-Action-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		277951371CEA2B5500B7B477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BubbleWrap Action Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fpstudios.BubbleWrap.BubbleWrap-Action-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2779509B1CEA062500B7B477 /* Build configuration list for PBXProject "BubbleWrap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277950B21CEA062500B7B477 /* Debug */,
+				277950B31CEA062500B7B477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		277950B41CEA062500B7B477 /* Build configuration list for PBXNativeTarget "BubbleWrap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277950B51CEA062500B7B477 /* Debug */,
+				277950B61CEA062500B7B477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		277950CB1CEA06AA00B7B477 /* Build configuration list for PBXNativeTarget "BubbleWrap Photo Editing Extenstion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277950CC1CEA06AA00B7B477 /* Debug */,
+				277950CD1CEA06AA00B7B477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		277951351CEA2B5500B7B477 /* Build configuration list for PBXNativeTarget "BubbleWrap Action Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277951361CEA2B5500B7B477 /* Debug */,
+				277951371CEA2B5500B7B477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 277950981CEA062500B7B477 /* Project object */;
+}
