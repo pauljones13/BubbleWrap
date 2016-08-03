@@ -33,7 +33,10 @@ class UserPanoramasViewController: UITableViewController {
                 return
             }
             
-            self.photoPanoramas = PHAsset.fetchAssetsInAssetCollection(iosPanosCollection, options: nil)
+            let options = PHFetchOptions()
+            options.sortDescriptors = [NSSortDescriptor(key: "creationDate", ascending: false)]
+            
+            self.photoPanoramas = PHAsset.fetchAssetsInAssetCollection(iosPanosCollection, options: options)
             
             PHPhotoLibrary.sharedPhotoLibrary().registerChangeObserver(self)
             
